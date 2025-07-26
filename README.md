@@ -65,6 +65,16 @@ pip install pyinstaller
 pyinstaller main.spec
 ```
 
+如果你想为可执行文件指定自定义图标：
+
+1. 准备一个 `.ico` 格式的图标文件，命名为 `icon.ico`
+2. 将图标文件放在项目根目录下（与 `main.spec` 同级）
+3. 运行打包命令即可
+
+如果没有图标文件，可以注释掉 `main.spec` 文件中的 `icon='icon.ico',` 这一行。
+
+打包完成后，可执行文件 `KeilUpdateTool.exe` 将位于 `dist/` 目录下。
+
 ## 使用方法
 
 ### GUI 模式（推荐）
