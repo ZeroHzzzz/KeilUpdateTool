@@ -1,9 +1,30 @@
 [project]
 name = "keil-update"
 version = "0.1.0"
-description = "Add your description here"
+description = "一个用于自动刷新和同步 Keil uVision 项目文件的工具，支持批量管理文件组和头文件路径"
 readme = "README.md"
 requires-python = ">=3.13"
+authors = [
+    {name = "ZeroHzzzz", email = ""}
+]
+license = {text = "MIT"}
+keywords = ["keil", "uvision", "project", "management", "embedded"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+]
 dependencies = [
     "lxml>=6.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ZeroHzzzz/KeilUpdateTool"
+Repository = "https://github.com/ZeroHzzzz/KeilUpdateTool"
+Issues = "https://github.com/ZeroHzzzz/KeilUpdateTool/issues"
+
+[project.scripts]
+keil-tool = "main:main"
