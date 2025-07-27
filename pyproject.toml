@@ -1,6 +1,6 @@
 [project]
 name = "keil-update"
-version = "0.1.0"
+version = "1.0.0"
 description = "一个用于自动刷新和同步 Keil uVision 项目文件的工具，支持批量管理文件组和头文件路径"
 readme = "README.md"
 requires-python = ">=3.13"

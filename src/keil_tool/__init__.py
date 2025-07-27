@@ -12,7 +12,7 @@ Keil 项目文件自动刷新工具
 GitHub: https://github.com/ZeroHzzzz/KeilUpdateTool
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 __author__ = "ZeroHzzzz"
 __email__ = ""
 
